@@ -1,5 +1,6 @@
 <template>
-  <header>
+<div class="container">
+   <header>
     <!-- logo  -->
     <img src="../assets/img/dc-logo.png" alt="logo dc comics">
 
@@ -11,6 +12,8 @@
       </ul>
     </nav>
   </header>
+</div>
+ 
 </template>
 
 <script>

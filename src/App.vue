@@ -39,4 +39,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container{
+  width: 80%;
+  margin : 0 auto;
+}
 </style>

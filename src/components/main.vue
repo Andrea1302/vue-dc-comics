@@ -1,6 +1,6 @@
 <template>
   <div>
-    prova main
+    --> Content goes here 
   </div>
 </template>
 
