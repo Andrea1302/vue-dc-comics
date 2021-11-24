@@ -1,0 +1,119 @@
+<template>
+  <header>
+    <!-- logo  -->
+    <img src="../assets/img/dc-logo.png" alt="logo dc comics">
+
+    <nav>
+      <ul>
+        <li v-for="link,i in links" :key="i">
+          <a :href="link.url" :class="link.active ? 'active' : '' ">{{link.text}}</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+  data(){
+  return{
+    links : [
+      {
+        text : "CHARACTER",
+        url : "#",
+        active : false
+      },
+      {
+        text : "COMICS",
+        url : "#",
+        active : true
+      },
+      {
+        text : "MOVIES",
+        url : "#",
+        active : false
+      },
+      {
+        text : "TV",
+        url : "#",
+        active : false
+      },
+      {
+        text : "GAMES",
+        url : "#",
+        active : false
+      },
+      {
+        text : "COLLECTIBLES",
+        url : "#",
+        active : false
+      },
+      {
+        text : "VIDEOS",
+        url : "#",
+        active : false
+      },
+      {
+        text : "FANS",
+        url : "#",
+        active : false
+      },
+      {
+        text : "NEWS",
+        url : "#",
+        active : false
+      },
+      {
+        text : "SHOP",
+        url : "#",
+        active : false
+      }
+
+    ]
+  }
+}
+}
+
+</script>
+
+
+<style scoped >
+  header{
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+  }
+  nav {
+    height: 100px;
+  }
+  nav ul {
+    height: 100%;
+  }
+  header li {
+    list-style: none;
+    height: 100%;
+    line-height: 100px;
+    vertical-align: middle;
+    display: inline-block;
+    margin :0 20px;
+  }
+  header img{
+    width: 80px;
+    height: auto;
+  }
+  li a.active{
+    color :rgb(0, 102, 255);
+    border-bottom: 4px solid rgb(0, 102, 255) ;
+  }
+  li a{
+    color: black;
+    text-decoration: none;
+    font-size: .6rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+</style>
