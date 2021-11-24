@@ -2,7 +2,7 @@
 <div class="container">
    <header>
     <!-- logo  -->
-    <img src="../assets/img/dc-logo.png" alt="logo dc comics">
+    <img src="../../public/assets/img/dc-logo.png" alt="logo dc comics">
 
     <nav>
       <ul>

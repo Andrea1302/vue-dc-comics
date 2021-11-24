@@ -5,124 +5,30 @@
                 <div>
                     <ul>
                         DC COMICS
-                        <li>
-                            <a href="">
-                                Characters
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                Comics
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                Movies
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                Tv
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                Games
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                Videos
-                            </a>
-                        </li>
-                         <li>
-                            <a href="">
-                                News
+                        <li v-for="link,i in linksDcComics" :key="i">
+                            <a :href="link.url">
+                                {{link.descrizione}}
                             </a>
                         </li>
                     </ul>
 
                     <ul>
                         SHOP
-                        <li>
-                            <a href="">
-                                Shop DC
+                        <li v-for="link,i in linksShop " :key="i">
+                            <a :href="link.url">
+                                {{link.descrizione}}
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                Shop DC Collectibles
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
 
                 <div id="central_nav">
                     <ul>
                         DC
-                        <li>
-                            <a href="">
-                                Terms Of Use
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Privacy policy ( new)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Ad Choices
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Advertising
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Jobs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Subscriptions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Talent Workshops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                CPSC Certificates
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Ratings
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Shop Help
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                Contact Us
+                        <li v-for="link,i in linksDC" :key="i">
+                            <a :href="link.url">
+                                {{link.descrizione}}
                             </a>
                         </li>
                     </ul>
@@ -131,34 +37,11 @@
                 <div>
                     <ul>
                         SITES
-                        <li>
-                            <a href="">
-                                DC
+                        <li v-for="link,i in Sites" :key="i">
+                            <a :href="link.url">
+                                {{link.descrizione}}
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                MAD Magazine
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                DC Kids
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                DC Universe
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                DC Power Visa
-                            </a>
-                        </li>
-
                     </ul>
                 </div>
             </nav>
@@ -174,6 +57,119 @@
 <script>
 export default {
   name: 'Footermain',
+  data(){
+      return{
+          linksDcComics : [
+              {
+                  descrizione: "Characters",
+                  url : "#"
+              },
+              {
+                  descrizione: "Comics",
+                  url : "#"
+              },
+              {
+                  descrizione: "Movies",
+                  url : "#"
+              },
+              {
+                  descrizione: "Tv",
+                  url : "#"
+              },
+              {
+                  descrizione: "Games",
+                  url : "#"
+              },
+              {
+                  descrizione: "Video",
+                  url : "#"
+              },
+              {
+                  descrizione: "News",
+                  url : "#"
+              },
+          ],
+          linksShop : [
+              {
+                descrizione: "Shop DC",
+                  url : "#" 
+              },
+              {
+                descrizione: "Shop DC Collectibles",
+                  url : "#" 
+              }
+          ],
+          linksDC : [
+              {
+                  descrizione : "Terms Of Use",
+                  url : "#"
+              },
+              {
+                  descrizione : "Privacy policy ( new)",
+                  url : "#"
+              },
+              {
+                  descrizione : "Ad Choices",
+                  url : "#"
+              },
+              {
+                  descrizione : "Advertising",
+                  url : "#"
+              },
+              {
+                  descrizione : "Jobs",
+                  url : "#"
+              },
+              {
+                  descrizione : "Subscriptions",
+                  url : "#"
+              },
+              {
+                  descrizione : "Talent Workshops",
+                  url : "#"
+              },
+              {
+                  descrizione : "CPSC Certificates",
+                  url : "#"
+              },
+              {
+                  descrizione : "Ratings",
+                  url : "#"
+              },
+              {
+                  descrizione : "Shop Help",
+                  url : "#"
+              },
+              {
+                  descrizione : "Contact Us",
+                  url : "#"
+              }
+            
+          ],
+          Sites : [
+              {
+                  descrizione : "DC",
+                  url : "#"
+              },
+              {
+                  descrizione : "MAD Magazine",
+                  url : "#"
+              },
+              {
+                  descrizione : "DC Kids",
+                  url : "#"
+              },
+              {
+                  descrizione : "DC Universe",
+                  url : "#"
+              },
+              {
+                  descrizione : "DC Power Visa",
+                  url : "#"
+              },
+          ]
+      }
+  }
 }
 </script>
 
