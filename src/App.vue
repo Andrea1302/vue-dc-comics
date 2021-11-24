@@ -22,7 +22,7 @@ import MsHeader from './components/Header.vue';
 import msMain from './components/Main.vue';
 import FooterTop from './components/Footertop.vue';
 import FooterMain from './components/Footermain.vue';
-import Footerbottom from './components/Footerbottom.vue'
+import Footerbottom from './components/Footerbottom.vue';
 
 
 
@@ -50,7 +50,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 .container{
-  width: 80%;
+  width: 70%;
   margin : 0 auto;
 }
 main{

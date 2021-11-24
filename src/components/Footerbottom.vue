@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
     #footerbottom{
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(37, 37, 37);
     }
     #contenitore_footer_bottom{
         display: flex;
@@ -65,7 +65,7 @@ export default {
         justify-content: space-between;
     }
     button{
-        padding: 4px;
+        padding: 8px;
         border: 2px solid rgb(0, 102, 255);
         background-color: rgba(0, 0, 0, 0);
         color: white;
