@@ -70,7 +70,7 @@ export default {
       {
         text : "SHOP",
         url : "#",
-        active : false
+        active : false,
       }
 
     ]
