@@ -11,14 +11,14 @@
     </main>
 
     <!-- footer  -->
-    <Footer/>
+    <FooterTop/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Main from './components/main.vue';
-import Footer from './components/footer.vue';
+import FooterTop from './components/footertop.vue';
 
 
 export default {
@@ -26,7 +26,7 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    FooterTop
   }
 }
 </script>
