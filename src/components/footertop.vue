@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <div>
       <!-- parte top footer  -->
       <section id="top_footer">
           <div class="container" id="container_top_footer" >
@@ -24,7 +24,7 @@
       <section>
 
       </section>
-  </footer>
+  </div>
 </template>
 
 <script>

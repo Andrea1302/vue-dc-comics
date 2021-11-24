@@ -10,9 +10,7 @@
     </main>
 
     <!-- footer  -->
-    <FooterTop/>
-    <FooterMain/>
-    <Footerbottom/>
+    <MsFooter/>
     
   </div>
 </template>
@@ -20,9 +18,8 @@
 <script>
 import MsHeader from './components/Header.vue';
 import msMain from './components/Main.vue';
-import FooterTop from './components/Footertop.vue';
-import FooterMain from './components/Footermain.vue';
-import Footerbottom from './components/Footerbottom.vue';
+import MsFooter from './components/Footer.vue';
+
 
 
 
@@ -31,9 +28,7 @@ export default {
   components: {
     MsHeader,
     msMain,
-    FooterTop,
-    FooterMain,
-    Footerbottom
+    MsFooter
   }
 }
 </script>
