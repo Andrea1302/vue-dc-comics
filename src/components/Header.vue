@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'MsHeader',
   data(){
   return{
     links : [

@@ -2,35 +2,38 @@
   <div id="app">
 
     <!-- Header  -->
-    <Header/>
+    <MsHeader/>
 
     <!-- Main  -->
     <main>
-    <Main/>
-
+      <msMain/>
     </main>
 
     <!-- footer  -->
     <FooterTop/>
     <FooterMain/>
+    <Footerbottom/>
+    
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Main from './components/main.vue';
-import FooterTop from './components/footertop.vue';
-import FooterMain from './components/footermain.vue';
+import MsHeader from './components/Header.vue';
+import msMain from './components/Main.vue';
+import FooterTop from './components/Footertop.vue';
+import FooterMain from './components/Footermain.vue';
+import Footerbottom from './components/Footerbottom.vue'
 
 
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Main,
+    MsHeader,
+    msMain,
     FooterTop,
-    FooterMain
+    FooterMain,
+    Footerbottom
   }
 }
 </script>

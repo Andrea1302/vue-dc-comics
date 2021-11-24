@@ -91,15 +91,16 @@ ul{
     font-weight: bold;
 }
 .img_top_footer{
-    width: 20%;
+    width: 15%;
 }
 .link_name{
     margin-left: 10px;
+    font-size: .7rem;
 }
 #img_svg{
     max-width: 250px;
 }
 #img_svg img {
-    width: 30%;
+    width: 20%;
 }
 </style>
