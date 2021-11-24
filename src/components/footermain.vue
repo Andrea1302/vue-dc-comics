@@ -7,37 +7,37 @@
                         DC COMICS
                         <li>
                             <a href="">
-                                prova
+                                Characters
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                Comics
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                Movies
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                Tv
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                Games
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                Videos
                             </a>
                         </li>
                          <li>
                             <a href="">
-                                prova
+                                News
                             </a>
                         </li>
                     </ul>
@@ -46,12 +46,12 @@
                         SHOP
                         <li>
                             <a href="">
-                                prova
+                                Shop DC
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                prova
+                                Shop DC Collectibles
                             </a>
                         </li>
                     </ul>
@@ -62,67 +62,67 @@
                         DC
                         <li>
                             <a href="">
-                                prova
+                                Terms Of Use
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Privacy policy ( new)
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Ad Choices
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Advertising
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Jobs
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Subscriptions
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Talent Workshops
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                CPSC Certificates
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Ratings
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Shop Help
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                Contact Us
                             </a>
                         </li>
                     </ul>
@@ -133,29 +133,29 @@
                         SITES
                         <li>
                             <a href="">
-                                prova
+                                DC
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                prova
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                prova
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                prova
+                                MAD Magazine
                             </a>
                         </li>
 
                         <li>
                             <a href="">
-                                prova
+                                DC Kids
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                DC Universe
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                DC Power Visa
                             </a>
                         </li>
 
@@ -207,12 +207,16 @@ export default {
     }
     nav li{
         list-style: none;
-        height: 15px;
+        margin: 2px 0;
+        display: flex;
+        align-items: center;
     }
     nav li a{
         text-decoration: none;
         font-size: .6rem;
         color:grey;
+        display: inline-block;
+        height: 100%;
     }
     #central_nav{
         margin: 0 30px;

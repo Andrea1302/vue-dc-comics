@@ -117,5 +117,10 @@ export default {
     display: inline-block;
     font-weight: bold;
   }
-
+  /* @media all and ( max-width:780px){
+    header li {
+      display: none;
+      
+    }
+  } */
 </style>
