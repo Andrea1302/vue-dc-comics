@@ -5,7 +5,10 @@
     <Header/>
 
     <!-- Main  -->
+    <main>
     <Main/>
+
+    </main>
 
     <!-- footer  -->
     <Footer/>
@@ -42,5 +45,9 @@ export default {
 .container{
   width: 80%;
   margin : 0 auto;
+}
+main{
+  background-color: black;
+  margin-top:5px;
 }
 </style>
