@@ -12,6 +12,7 @@
 
     <!-- footer  -->
     <FooterTop/>
+    <FooterMain/>
   </div>
 </template>
 
@@ -19,6 +20,8 @@
 import Header from './components/Header.vue';
 import Main from './components/main.vue';
 import FooterTop from './components/footertop.vue';
+import FooterMain from './components/footermain.vue';
+
 
 
 export default {
@@ -26,7 +29,8 @@ export default {
   components: {
     Header,
     Main,
-    FooterTop
+    FooterTop,
+    FooterMain
   }
 }
 </script>
