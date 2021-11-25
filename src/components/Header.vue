@@ -109,6 +109,7 @@ export default {
   li a.active{
     color :rgb(0, 102, 255);
     border-bottom: 4px solid rgb(0, 102, 255) ;
+    height: 100%;
   }
   li a{
     color: black;

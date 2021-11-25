@@ -4,6 +4,8 @@
     <!-- Header  -->
     <MsHeader/>
 
+    <!-- Jumbotron  -->
+    <Jumbotron/>
     <!-- Main  -->
     <main>
       <MsMain/>
@@ -19,6 +21,8 @@
 import MsHeader from './components/Header.vue';
 import MsMain from './components/Main.vue';
 import MsFooter from './components/Footer.vue';
+import Jumbotron from './components/Jumbotron.vue';
+
 
 
 
@@ -27,6 +31,7 @@ export default {
   name: 'App',
   components: {
     MsHeader,
+    Jumbotron,
     MsMain,
     MsFooter
   }
@@ -50,6 +55,5 @@ export default {
 }
 main{
   background-color: black;
-  margin-top:5px;
 }
 </style>
