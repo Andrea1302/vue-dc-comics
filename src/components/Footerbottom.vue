@@ -16,27 +16,27 @@
                     
                     <li>
                         <a href="#">
-                            <img src="../../public/assets/img/footer-facebook.png" alt="facebook logo">
+                            <img src="../assets/img/footer-facebook.png" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../public/assets/img/footer-twitter.png" alt="facebook logo">
+                            <img src="../assets/img/footer-twitter.png" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../public/assets/img/footer-youtube.png" alt="facebook logo">
+                            <img src="../assets/img/footer-youtube.png" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../public/assets/img/footer-pinterest.png" alt="facebook logo">
+                            <img src="../assets/img/footer-pinterest.png" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../public/assets/img/footer-periscope.png" alt="facebook logo">
+                            <img src="../assets/img/footer-periscope.png" alt="facebook logo">
                         </a>
                     </li>
                 </ul>

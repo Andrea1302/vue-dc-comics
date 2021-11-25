@@ -46,7 +46,7 @@
                 </div>
             </nav>
             <div id="logo">
-                <img src="../../public/assets/img/dc-logo-bg.png" alt="logo dc">
+                <img src="../assets/img/dc-logo-bg.png" alt="logo dc">
             </div>
         </div>
     </section>
@@ -176,7 +176,7 @@ export default {
 
 <style scoped>
     #footermain{
-        background-image: url("../../public/assets/img/footer-bg.jpg");
+        background-image: url("../assets/img/footer-bg.jpg");
         width: 100%;
         height: 300px;
         overflow: hidden;

@@ -6,7 +6,7 @@
               <ul id="lista_top_footer">
                   <li v-for="link, i in links" :key="i" :id="link.svg? 'img_svg' : '' ">
                       <a :href="link.url">
-                        <img class="img_top_footer" :src="link.immagine" :alt="link.descrizione">
+                        <img class="img_top_footer" :src="require(`../assets/img/${link.immagine}`)" :alt="link.descrizione">
                         <div class="link_name">{{link.descrizione}}</div>
                       </a>
                       
@@ -34,27 +34,27 @@ export default {
       return{
           links : [
               {
-                  immagine : "../assets/img/digital.png",
+                  immagine : "digital.png",
                   descrizione : "DIGITAL COMICS",
                   url : "#"
               },
               {
-                  immagine : "../assets/img/merchandise.png",
+                  immagine : "merchandise.png",
                   descrizione : "DC MERCHANDISE",
                   url : "#"
               },
               {
-                  immagine : "../assets/img/subscrition.png",
+                  immagine : "subscrition.png",
                   descrizione : "SUBSCRIPTION",
                   url : "#"
               },
               {
-                  immagine : "../assets/img/shop.png",
+                  immagine : "shop.png",
                   descrizione : "COMIC SHOP LOCATOR",
                   url : "#"
               },
               {
-                  immagine : "../assets/img/visa.svg",
+                  immagine : "visa.svg",
                   descrizione : "DC POWER VISA",
                   url : "#",
                   svg : true
