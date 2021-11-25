@@ -54,6 +54,7 @@ export default {
   margin : 0 auto;
 }
 main{
-  background-color: black;
+  background-color: rgb(17, 17, 17);
+  padding: 20px 0;
 }
 </style>

@@ -1,15 +1,21 @@
 <template>
     <div class="container">
         <section>
-            --> Content goes here 
+            <CardItem/>
         </section>
     </div>
   
 </template>
 
+
 <script>
+import CardItem from './CardItem.vue';
+
 export default {
   name: 'msMain',
+  components: {
+    CardItem,
+  }
 }
 </script>
 
@@ -17,10 +23,6 @@ export default {
 <style scoped>
     section{
         color: white;
-        min-height: 100px;
-        display: flex;
-        align-items: center;
-        font-weight:bold;
-        font-size: 1.2rem;
+        width: 100%;
     }
 </style>
