@@ -6,7 +6,7 @@
 
     <!-- Main  -->
     <main>
-      <msMain/>
+      <MsMain/>
     </main>
 
     <!-- footer  -->
@@ -17,7 +17,7 @@
 
 <script>
 import MsHeader from './components/Header.vue';
-import msMain from './components/Main.vue';
+import MsMain from './components/Main.vue';
 import MsFooter from './components/Footer.vue';
 
 
@@ -27,7 +27,7 @@ export default {
   name: 'App',
   components: {
     MsHeader,
-    msMain,
+    MsMain,
     MsFooter
   }
 }
