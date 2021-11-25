@@ -19,7 +19,7 @@
 
 <script>
 import MsHeader from './components/Header.vue';
-import MsMain from './components/Main.vue';
+import MsMain from './components/MsMain.vue';
 import MsFooter from './components/Footer.vue';
 import Jumbotron from './components/Jumbotron.vue';
 

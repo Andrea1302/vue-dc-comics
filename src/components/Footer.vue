@@ -10,9 +10,9 @@
 
 <script>
 
-import FooterTop from './Footertop.vue';
-import FooterMain from './Footermain.vue';
-import Footerbottom from './Footerbottom.vue';
+import FooterTop from './MsFooterTop.vue';
+import FooterMain from './MSFooterMain.vue';
+import Footerbottom from './MsFooterBottom.vue';
 
 export default {
   name: 'MsFooter',
